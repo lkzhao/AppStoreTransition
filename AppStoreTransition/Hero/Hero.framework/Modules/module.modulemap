@@ -1,0 +1,11 @@
+framework module Hero {
+  umbrella header "Hero.h"
+
+  export *
+  module * { export * }
+}
+
+module Hero.Swift {
+    header "Hero-Swift.h"
+    requires objc
+}
